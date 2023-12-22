@@ -1,0 +1,260 @@
+❯ java -jar PA4.jar
+Horizontal and vertical array concatenation.
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1]
+[1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+[1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1]
+[1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1]
+[1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+[1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1]
+[1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1]
+[1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+[1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+[1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1]
+[1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1]
+[1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1]
+[1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1]
+[1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1]
+[1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+[1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1]
+[1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1]
+[1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+[1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1]
+[1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1]
+[1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1]
+[1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Visual Representation
++ --- + --- + --- + --- + --- + --- + --- + --- + --- + --- + --- + --- +
+|  0     1  |  2  |  3  |  4     5     6  |  7  |  8  |  9     10 |  11 |
++     +     +     + --- +     +     +     + --- +     +     +     +     +
+|  12    13    14    15 |  16 |  17    18    19 |  20    21 |  22 |  23 |
++     + --- + --- +     +     + --- + --- +     +     +     + --- + --- +
+|  24 |  25    26    27    28    29    30    31 |  32 |  33 |  34 |  35 |
++     + --- + --- + --- +     +     +     + --- + --- + --- +     + --- +
+|  36    37    38 |  39    40 |  41    42 |  43 |  44    45    46    47 |
++     + --- +     +     + --- + --- +     +     +     +     +     +     +
+|  48 |  49 |  50    51    52    53 |  54    55 |  56 |  57 |  58 |  59 |
++     +     +     + --- + --- +     +     +     + --- +     +     + --- +
+|  60 |  61 |  62 |  63    64 |  65    66 |  67    68 |  69 |  70    71 |
++     +     + --- + --- +     + --- + --- +     + --- +     +     +     +
+|  72 |  73 |  74    75 |  76    77    78 |  79    80    81 |  82 |  83 |
++ --- + --- +     +     +     +     +     +     + --- +     +     + --- +
+|  84    85    86 |  87 |  88 |  89    90    91    92    93    94    95 |
++ --- +     + --- + --- +     +     + --- +     +     + --- + --- +     +
+|  96 |  97    98 |  99 | 100 | 101 | 102   103 | 104 | 105   106 | 107 |
++ --- +     + --- + --- +     +     +     +     + --- + --- + --- +     +
+| 108 | 109 | 110 | 111 | 112   113 | 114   115   116   117   118 | 119 |
++ --- + --- +     +     + --- +     + --- +     +     +     + --- + --- +
+| 120   121 | 122   123   124 | 125   126 | 127 | 128   129   130 | 131 |
++     + --- +     + --- + --- +     + --- +     + --- +     +     + --- +
+| 132   133 | 134   135 | 136 | 137 | 138 | 139 | 140 | 141 | 142 | 143 |
++ --- + --- + --- + --- + --- + --- + --- + --- + --- + --- + --- + --- +
+
+Adjacency list of the graph:
+Adjacency list of vertex 0 -> 12 -> 1
+Adjacency list of vertex 1 -> 13 -> 0
+Adjacency list of vertex 2 -> 14
+Adjacency list of vertex 3
+Adjacency list of vertex 4 -> 16 -> 5
+Adjacency list of vertex 5 -> 17 -> 6 -> 4
+Adjacency list of vertex 6 -> 18 -> 5
+Adjacency list of vertex 7
+Adjacency list of vertex 8 -> 20
+Adjacency list of vertex 9 -> 21 -> 10
+Adjacency list of vertex 10 -> 22 -> 9
+Adjacency list of vertex 11 -> 23
+Adjacency list of vertex 12 -> 24 -> 0 -> 13
+Adjacency list of vertex 13 -> 1 -> 14 -> 12
+Adjacency list of vertex 14 -> 2 -> 15 -> 13
+Adjacency list of vertex 15 -> 27 -> 14
+Adjacency list of vertex 16 -> 28 -> 4
+Adjacency list of vertex 17 -> 5 -> 18
+Adjacency list of vertex 18 -> 6 -> 19 -> 17
+Adjacency list of vertex 19 -> 31 -> 18
+Adjacency list of vertex 20 -> 32 -> 8 -> 21
+Adjacency list of vertex 21 -> 33 -> 9 -> 20
+Adjacency list of vertex 22 -> 10
+Adjacency list of vertex 23 -> 11
+Adjacency list of vertex 24 -> 36 -> 12
+Adjacency list of vertex 25 -> 26
+Adjacency list of vertex 26 -> 27 -> 25
+Adjacency list of vertex 27 -> 15 -> 28 -> 26
+Adjacency list of vertex 28 -> 40 -> 16 -> 29 -> 27
+Adjacency list of vertex 29 -> 41 -> 30 -> 28
+Adjacency list of vertex 30 -> 42 -> 31 -> 29
+Adjacency list of vertex 31 -> 19 -> 30
+Adjacency list of vertex 32 -> 20
+Adjacency list of vertex 33 -> 21
+Adjacency list of vertex 34 -> 46
+Adjacency list of vertex 35
+Adjacency list of vertex 36 -> 48 -> 24 -> 37
+Adjacency list of vertex 37 -> 38 -> 36
+Adjacency list of vertex 38 -> 50 -> 37
+Adjacency list of vertex 39 -> 51 -> 40
+Adjacency list of vertex 40 -> 28 -> 39
+Adjacency list of vertex 41 -> 29 -> 42
+Adjacency list of vertex 42 -> 54 -> 30 -> 41
+Adjacency list of vertex 43 -> 55
+Adjacency list of vertex 44 -> 56 -> 45
+Adjacency list of vertex 45 -> 57 -> 46 -> 44
+Adjacency list of vertex 46 -> 58 -> 34 -> 47 -> 45
+Adjacency list of vertex 47 -> 59 -> 46
+Adjacency list of vertex 48 -> 60 -> 36
+Adjacency list of vertex 49 -> 61
+Adjacency list of vertex 50 -> 62 -> 38 -> 51
+Adjacency list of vertex 51 -> 39 -> 52 -> 50
+Adjacency list of vertex 52 -> 53 -> 51
+Adjacency list of vertex 53 -> 65 -> 52
+Adjacency list of vertex 54 -> 66 -> 42 -> 55
+Adjacency list of vertex 55 -> 67 -> 43 -> 54
+Adjacency list of vertex 56 -> 44
+Adjacency list of vertex 57 -> 69 -> 45
+Adjacency list of vertex 58 -> 70 -> 46
+Adjacency list of vertex 59 -> 47
+Adjacency list of vertex 60 -> 72 -> 48
+Adjacency list of vertex 61 -> 73 -> 49
+Adjacency list of vertex 62 -> 50
+Adjacency list of vertex 63 -> 64
+Adjacency list of vertex 64 -> 76 -> 63
+Adjacency list of vertex 65 -> 53 -> 66
+Adjacency list of vertex 66 -> 54 -> 65
+Adjacency list of vertex 67 -> 79 -> 55 -> 68
+Adjacency list of vertex 68 -> 67
+Adjacency list of vertex 69 -> 81 -> 57
+Adjacency list of vertex 70 -> 82 -> 58 -> 71
+Adjacency list of vertex 71 -> 83 -> 70
+Adjacency list of vertex 72 -> 60
+Adjacency list of vertex 73 -> 61
+Adjacency list of vertex 74 -> 86 -> 75
+Adjacency list of vertex 75 -> 87 -> 74
+Adjacency list of vertex 76 -> 88 -> 64 -> 77
+Adjacency list of vertex 77 -> 89 -> 78 -> 76
+Adjacency list of vertex 78 -> 90 -> 77
+Adjacency list of vertex 79 -> 91 -> 67 -> 80
+Adjacency list of vertex 80 -> 81 -> 79
+Adjacency list of vertex 81 -> 93 -> 69 -> 80
+Adjacency list of vertex 82 -> 94 -> 70
+Adjacency list of vertex 83 -> 71
+Adjacency list of vertex 84 -> 85
+Adjacency list of vertex 85 -> 97 -> 86 -> 84
+Adjacency list of vertex 86 -> 74 -> 85
+Adjacency list of vertex 87 -> 75
+Adjacency list of vertex 88 -> 100 -> 76
+Adjacency list of vertex 89 -> 101 -> 77 -> 90
+Adjacency list of vertex 90 -> 78 -> 91 -> 89
+Adjacency list of vertex 91 -> 103 -> 79 -> 92 -> 90
+Adjacency list of vertex 92 -> 104 -> 93 -> 91
+Adjacency list of vertex 93 -> 81 -> 94 -> 92
+Adjacency list of vertex 94 -> 82 -> 95 -> 93
+Adjacency list of vertex 95 -> 107 -> 94
+Adjacency list of vertex 96
+Adjacency list of vertex 97 -> 109 -> 85 -> 98
+Adjacency list of vertex 98 -> 97
+Adjacency list of vertex 99
+Adjacency list of vertex 100 -> 112 -> 88
+Adjacency list of vertex 101 -> 113 -> 89
+Adjacency list of vertex 102 -> 114 -> 103
+Adjacency list of vertex 103 -> 115 -> 91 -> 102
+Adjacency list of vertex 104 -> 92
+Adjacency list of vertex 105 -> 106
+Adjacency list of vertex 106 -> 105
+Adjacency list of vertex 107 -> 119 -> 95
+Adjacency list of vertex 108
+Adjacency list of vertex 109 -> 97
+Adjacency list of vertex 110 -> 122
+Adjacency list of vertex 111 -> 123
+Adjacency list of vertex 112 -> 100 -> 113
+Adjacency list of vertex 113 -> 125 -> 101 -> 112
+Adjacency list of vertex 114 -> 102 -> 115
+Adjacency list of vertex 115 -> 127 -> 103 -> 116 -> 114
+Adjacency list of vertex 116 -> 128 -> 117 -> 115
+Adjacency list of vertex 117 -> 129 -> 118 -> 116
+Adjacency list of vertex 118 -> 117
+Adjacency list of vertex 119 -> 107
+Adjacency list of vertex 120 -> 132 -> 121
+Adjacency list of vertex 121 -> 120
+Adjacency list of vertex 122 -> 134 -> 110 -> 123
+Adjacency list of vertex 123 -> 111 -> 124 -> 122
+Adjacency list of vertex 124 -> 123
+Adjacency list of vertex 125 -> 137 -> 113 -> 126
+Adjacency list of vertex 126 -> 125
+Adjacency list of vertex 127 -> 139 -> 115
+Adjacency list of vertex 128 -> 116 -> 129
+Adjacency list of vertex 129 -> 141 -> 117 -> 130 -> 128
+Adjacency list of vertex 130 -> 142 -> 129
+Adjacency list of vertex 131
+Adjacency list of vertex 132 -> 120 -> 133
+Adjacency list of vertex 133 -> 132
+Adjacency list of vertex 134 -> 122 -> 135
+Adjacency list of vertex 135 -> 134
+Adjacency list of vertex 136
+Adjacency list of vertex 137 -> 125
+Adjacency list of vertex 138
+Adjacency list of vertex 139 -> 127
+Adjacency list of vertex 140
+Adjacency list of vertex 141 -> 129
+Adjacency list of vertex 142 -> 130
+Adjacency list of vertex 143
+DFS path:
+0 -> 12 -> 24 -> 36 -> 48 -> 60 -> 72 -> 37 -> 38 -> 50 -> 62 -> 51 -> 39 -> 40 -> 28 -> 16 -> 4 -> 5 -> 17 -> 18 -> 6 -> 19 -> 31 -> 30 -> 42 -> 54 -> 66 -> 65 -> 53 -> 52 -> 55 -> 67 -> 79 -> 91 -> 103 -> 115 -> 127 -> 139 -> 116 -> 128 -> 129 -> 141 -> 117 -> 118 -> 130 -> 142 -> 114 -> 102 -> 92 -> 104 -> 93 -> 81 -> 69 -> 57 -> 45 -> 46 -> 58 -> 70 -> 82 -> 94 -> 95 -> 107 -> 119 -> 71 -> 83 -> 34 -> 47 -> 59 -> 44 -> 56 -> 80 -> 90 -> 78 -> 77 -> 89 -> 101 -> 113 -> 125 -> 137 -> 126 -> 112 -> 100 -> 88 -> 76 -> 64 -> 63 -> 68 -> 43 -> 41 -> 29 -> 27 -> 15 -> 14 -> 2 -> 13 -> 1 -> 26 -> 25
+DFS took 0.618209 seconds to complete.
+BFS path:
+0 -> 12 -> 1 -> 24 -> 13 -> 36 -> 14 -> 48 -> 37 -> 2 -> 15 -> 60 -> 38 -> 27 -> 72 -> 50 -> 28 -> 26 -> 62 -> 51 -> 40 -> 16 -> 29 -> 25 -> 39 -> 52 -> 4 -> 41 -> 30 -> 53 -> 5 -> 42 -> 31 -> 65 -> 17 -> 6 -> 54 -> 19 -> 66 -> 18 -> 55 -> 67 -> 43 -> 79 -> 68 -> 91 -> 80 -> 103 -> 92 -> 90 -> 81 -> 115 -> 102 -> 104 -> 93 -> 78 -> 89 -> 69 -> 127 -> 116 -> 114 -> 94 -> 77 -> 101 -> 57 -> 139 -> 128 -> 117 -> 82 -> 95 -> 76 -> 113 -> 45 -> 129 -> 118 -> 70 -> 107 -> 88 -> 64 -> 125 -> 112 -> 46 -> 44 -> 141 -> 130 -> 58 -> 71 -> 119 -> 100 -> 63 -> 137 -> 126 -> 34 -> 47 -> 56 -> 142 -> 83 -> 59
+BFS took 1.133084 seconds to complete.
+Visual Representation of DFS
++ --- + --- + --- + --- + --- + --- + --- + --- + --- + --- + --- + --- +
+|  0     95 |  93 |     |  16    17    20 |     |     |           |     |
++     +     +     + --- +     +     +     + --- +     +     +     +     +
+|  1     94    92    91 |  15 |  18    19    21 |           |     |     |
++     + --- + --- +     +     + --- + --- +     +     +     + --- + --- +
+|  2  |  97    96    90    14    89    23    22 |     |     |  65 |     |
++     + --- + --- + --- +     +     +     + --- + --- + --- +     + --- +
+|  3     7     8  |  12    13 |  88    24 |  87 |  68    54    55    66 |
++     + --- +     +     + --- + --- +     +     +     +     +     +     +
+|  4  |     |  9     11    29    28 |  25    30 |  69 |  53 |  56 |  67 |
++     +     +     + --- + --- +     +     +     + --- +     +     + --- +
+|  5  |     |  10 |  85    84 |  27    26 |  31    86 |  52 |  57    63 |
++     +     + --- + --- +     + --- + --- +     + --- +     +     +     +
+|  6  |     |           |  83    73    72 |  32    70    51 |  58 |  64 |
++ --- + --- +     +     +     +     +     +     + --- +     +     + --- +
+|                 |     |  82 |  74    71    33    48    50    59    60 |
++ --- +     + --- + --- +     +     + --- +     +     + --- + --- +     +
+|     |           |     |  81 |  75 |  47    34 |  49 |           |  61 |
++ --- +     + --- + --- +     +     +     +     + --- + --- + --- +     +
+|     |     |     |     |  80    76 |  46    35    38    42    43 |  62 |
++ --- + --- +     +     + --- +     + --- +     +     +     + --- + --- +
+|           |                 |  77    79 |  36 |  39    40    44 |     |
++     + --- +     + --- + --- +     + --- +     + --- +     +     + --- +
+|           |           |     |  78 |     |  37 |     |  41 |  45 |     |
++ --- + --- + --- + --- + --- + --- + --- + --- + --- + --- + --- + --- +
+
+Visual Representation of BFS
++ --- + --- + --- + --- + --- + --- + --- + --- + --- + --- + --- + --- +
+|  0     2  |  9  |     |  26    30    35 |     |     |           |     |
++     +     +     + --- +     +     +     + --- +     +     +     +     +
+|  1     4     6     10 |  21 |  34    39    37 |           |     |     |
++     + --- + --- +     +     + --- + --- +     +     +     + --- + --- +
+|  3  |  23    17    13    16    22    28    32 |     |     |  92 |     |
++     + --- + --- + --- +     +     +     + --- + --- + --- +     + --- +
+|  5     8     12 |  24    20 |  27    31 |  42 |  82    72    81    93 |
++     + --- +     +     + --- + --- +     +     +     +     +     +     +
+|  7  |     |  15    19    25    29 |  36    40 |  94 |  64 |  85 |  97 |
++     +     +     + --- + --- +     +     +     + --- +     +     + --- +
+|  11 |     |  18 |  89    78 |  33    38 |  41    44 |  57 |  75    86 |
++     +     + --- + --- +     + --- + --- +     + --- +     +     +     +
+|  14 |     |           |  70    62    55 |  43    46    50 |  68 |  96 |
++ --- + --- +     +     +     +     +     +     + --- +     +     + --- +
+|                 |     |  77 |  56    49    45    48    54    61    69 |
++ --- +     + --- + --- +     +     + --- +     +     + --- + --- +     +
+|     |           |     |  88 |  63 |  52    47 |  53 |           |  76 |
++ --- +     + --- + --- +     +     +     +     + --- + --- + --- +     +
+|     |     |     |     |  80    71 |  60    51    59    67    74 |  87 |
++ --- + --- +     +     + --- +     + --- +     +     +     + --- + --- +
+|           |                 |  79    91 |  58 |  66    73    84 |     |
++     + --- +     + --- + --- +     + --- +     + --- +     +     + --- +
+|           |           |     |  90 |     |  65 |     |  83 |  95 |     |
++ --- + --- + --- + --- + --- + --- + --- + --- + --- + --- + --- + --- +
+
